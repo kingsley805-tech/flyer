@@ -40,9 +40,33 @@ export default function App() {
         <div className="flex items-start justify-start w-full p-4">
           <img src={Logo} alt="Logo" />
         </div>
-        
+        <div className='flex md:hidden flex-row font-Afacad  md:justify-between  px-[25px] pt-[45px] 'style={{
+            backgroundImage: `url(${BackgroundImage})`,
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: isMobile ? 'bottom' : 'right',
+            backgroundSize: 'contain',
+            overflow: 'hidden', 
+          }}>
+          <div className='flex flex-col '>
+            <h1 className='text-black  text-3xl md:text-8xl font-semibold'>
+              {' '}
+              <span className='text-6xl md:text-9xl'>W</span>eb development{' '}
+              <span className='text-slate-600'>Bootcamp</span>
+            </h1>
+            <p className='text-md md:text-2xl pt-[25px]'>
+              Want to build and design websites from scratch? 6lacktech offers
+              interactive courses tailored to beginners and advanced learners
+              alike. Choose your path:
+            </p>
+          </div>
+          <img
+            src={Girl}
+            alt='Lady'
+            className='relative w-48 md:w-96 md:-right-0'
+          />
+        </div>
         <div
-          className="bg-container flex items-center justify-center w-full p-4"
+          className="bg-container  hidden md:flex items-center justify-center w-full p-4"
           style={{
             backgroundImage: `url(${BackgroundImage})`,
             backgroundRepeat: 'no-repeat',
@@ -69,10 +93,10 @@ export default function App() {
           </div>
         </div>
         <div className=" flex items-center w-full mt-16 justify-center md:items-start md:justify-start">
-          <p className='text-black text-5xl text-center md:ml-14 md:-mb-28 font-extrabold '>Frontend <span className='text-white'>Development</span></p>
+          <p className='text-[#020617] text-5xl text-center md:ml-6 md:-mb-28 font-extrabold '>Frontend <span className='text-[#475569]'>Development</span></p>
         </div>
        
-        <div className='grid md:grid-cols-3 my-10 relative font-Afacad gap-3 mb-[11px] pt-9 mx-[25px] items-baseline'>
+        <div className='grid grid-cols-2 md:grid-cols-3 my-10 relative font-Afacad gap-3 mb-[11px] pt-9 mx-[25px] items-baseline'>
   {/* First card */}
   <div
     className='p-3 md:p-6 bg-slate-950 text-white space-y-2 hover:font-bold rounded-md hover:bg-black/50 group'
@@ -84,7 +108,7 @@ export default function App() {
       overflow: 'hidden',
     }}
   >
-    <h1 className='font-medium text-sm md:text-xl'>HTML, CSS, JavaScript</h1>
+    <h1 className='font-medium text-sm md:text-xl'>HTML, CSS,Vanilla JavaScript</h1>
     <p className='text-sm md:text-xl'>Duration: 6 Weeks</p>
     <h1 className='text-2xl md:text-4xl font-medium '>GHC 300</h1>
     <p className='text-sm md:text-xl'>
@@ -146,10 +170,10 @@ export default function App() {
   </div>
 </div>
         <div className=" flex items-center w-full mt-16 justify-center md:items-start md:justify-start">
-          <p className='text-black text-5xl text-center md:ml-14 md:-mb-28 font-extrabold '>Backend <span className='text-white'>Development</span></p>
+          <p className='text-[#020617] text-5xl text-center md:ml-6 md:-mb-28 font-extrabold '>Backend <span className='text-[#475569]'>Development--Coming soon</span></p>
         </div>
        
-        <div className='grid md:grid-cols-3 my-10 relative font-Afacad gap-3 mb-[11px] pt-9 mx-[25px] items-baseline'>
+        <div className='grid grid-cols-2 md:grid-cols-3 my-10 relative font-Afacad gap-3 mb-[11px] pt-9 mx-[25px] items-baseline'>
   {/* First card */}
   <div
     className='p-3 md:p-6 bg-slate-950 text-white space-y-2 hover:font-bold rounded-md hover:bg-black/50 group'
@@ -167,8 +191,8 @@ export default function App() {
     <p className='text-sm md:text-xl'>
     Get started with backend development using Node.js.
     </p>
-    <a href='https://paystack.com/pay/6lacktech' target='_blank'>
-      <button className='p-3 rounded-xl border-2 flex items-center border-slate-800 group-hover:bg-black'>
+    <a href='#' >
+      <button className='p-3  rounded-xl border-2 flex items-center border-slate-800 group-hover:bg-black'>
         Register
       </button>
     </a>
@@ -185,13 +209,13 @@ export default function App() {
       overflow: 'hidden',
     }}
   >
-    <h1 className='font-medium text-sm md:text-xl'>Python, Django, SQL</h1>
+    <h1 className='font-medium text-sm md:text-xl'>Python, Django, SQL DB</h1>
     <p className='text-sm md:text-xl'>Duration: 8 Weeks</p>
     <h1 className='text-2xl md:text-4xl font-medium '>GHC 600</h1>
     <p className='text-sm md:text-xl'>
     Master backend with Python and Django for robust apps.
     </p>
-    <a href='https://paystack.com/pay/6lacktech1' target='_blank'>
+    <a href='#' >
       <button className='p-3 rounded-xl border-2 flex items-center border-slate-800 group-hover:bg-black'>
         Register
       </button>
@@ -213,9 +237,9 @@ export default function App() {
     <p className='text-sm md:text-xl'>Duration: 10 Weeks</p>
     <h1 className='text-2xl md:text-4xl font-medium '>GHC 900</h1>
     <p className='text-sm md:text-xl'>
-    Develop and deploy scalable backend systems.
+   Master, Develop and deploy scalable backend systems .
     </p>
-    <a href='https://paystack.com/pay/6lacktech2' target='_blank'>
+    <a href='#'>
       <button className='p-3 rounded-xl border-2 flex items-center border-slate-800 group-hover:bg-black'>
         Register
       </button>

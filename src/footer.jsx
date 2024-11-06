@@ -13,7 +13,7 @@ function Footer() {
   };
 
   return (
-    <footer className="w-full bg-white shadow-2xl text-gray-900 py-10 px-4 md:px-8">
+    <footer className="w-full bg-white shadow-2xl text-gray-900 py-10 px-4 md:px-8 back">
       {/* Footer Top: Logo and Contact Info */}
       <div className="flex flex-col md:flex-row items-center md:items-start justify-between mb-8">
         <div className="text-center md:text-left mb-4 md:mb-0 md:w-1/4">
@@ -29,16 +29,16 @@ function Footer() {
           <p className="text-gray-900">For more enquiries:</p>
           <a 
             href="mailto:info@6lacktech.com" 
-            className="text-blue-400 font-medium hover:underline block"
+            className="text-gray-600 hover:text-gray-800 font-medium hover:underline block"
           >
             info@6lacktech.com
           </a>
           <p className="mt-2">Location: Modern City (Modec)</p>
           <p className="mt-2">
-            Phone: <a href="tel:+233245182867" className="text-blue-500 hover:underline">+233 24 518 2867</a>
+            Phone: <a href="tel:+233245182867" className="text-gray-600 hover:text-gray-800 hover:underline">+233 24 518 2867</a>
           </p>
           <p className="mt-2">
-            Phone: <a href="tel:+233245182867" className="text-blue-500 hover:underline">+233 50 073 3307</a>
+            Phone: <a href="tel:+233245182867" className="text-gray-600 hover:text-gray-800 hover:underline">+233 50 073 3307</a>
           </p>
         </div>
 
@@ -67,7 +67,7 @@ function Footer() {
               />
               <button 
                 type="submit" 
-                className="bg-blue-500 text-white font-bold px-4 py-2 rounded hover:bg-blue-600 transition"
+                className="bg-gray-900 text-white font-bold px-4 py-2 rounded hover:bg-gray-400 transition"
               >
                 Subscribe
               </button>
