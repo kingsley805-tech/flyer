@@ -28,7 +28,7 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <div>
       <div className="w-screen flex items-center flex-col justify-center p-1 border back">
       <div className="w-full flex justify-center  items-center">
   <div className="bg-gray-950 w-screen relative left-4  h-3"></div>
@@ -258,6 +258,6 @@ export default function App() {
 </div>
 <Footer />
       </div>
-    </>
+    </div>
   );
 }
