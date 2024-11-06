@@ -7,8 +7,8 @@ import Footer from './footer'
 import 'animate.css';
 
 
-import BackgroundImage from '../public/6.svg';
-import S6 from '../public/s6.svg';
+import BackgroundImage from '/6.svg';
+import S6 from '/s6.svg';
 
 
 export default function App() {
