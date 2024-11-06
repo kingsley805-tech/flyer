@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react';
 import Logo from './assets/Logo.svg';
 import Web from './assets/Web Development Bootcamp.svg';
 import Girl from './assets/pgirl.png';
-import BackgroundImage from './assets/6.svg';
 import '/src/App.css';
-import S6 from './assets/s6.svg'
 import Footer from './footer'
 import 'animate.css';
+
+
+import BackgroundImage from '../public/6.svg';
+import S6 from '../public/s6.svg';
 
 
 export default function App() {
@@ -246,10 +248,6 @@ export default function App() {
     </a>
   </div>
 </div>
-
-
-        
-
 <div className="flex items-center justify-center bg-[#020617] w-full  my-20 md:w-[1050px] text-white font-extrabold rounded-lg">
   <p className='md:tracking-wide md:leading-10 text-md md:text-3xl  animate__animated  animate__bounce'>Join Us Now and bring your website ideas to life!</p>
 </div>
