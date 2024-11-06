@@ -5,10 +5,8 @@ import Girl from './assets/pgirl.png';
 import '/src/App.css';
 import Footer from './footer'
 import 'animate.css';
-
-
-import BackgroundImage from '/6.svg';
-import S6 from '/s6.svg';
+import BackgroundImage from './assets/6.svg';
+import S6 from './assets/s6.svg';
 
 
 export default function App() {
