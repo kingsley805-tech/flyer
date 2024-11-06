@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-mobile{
+  background-image: url('../src/assets/9.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x:90%;
+  background-position-y:10%;
+
+}
+
+@media screen(md) {
+.bg-Desktop {
+  background-image: url('../src/assets/9.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x:90%;
+  background-position-y:10%;
+  }
+}

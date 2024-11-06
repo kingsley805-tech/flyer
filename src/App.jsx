@@ -247,9 +247,6 @@ export default function App() {
   </div>
 </div>
 
-
-        
-
 <div className="flex items-center justify-center bg-[#020617] w-full  my-20 md:w-[1050px] text-white font-extrabold rounded-lg">
   <p className='md:tracking-wide md:leading-10 text-md md:text-3xl  animate__animated  animate__bounce'>Join Us Now and bring your website ideas to life!</p>
 </div>
